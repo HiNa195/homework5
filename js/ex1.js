@@ -30,6 +30,7 @@ class Square {
 const square2 = new Square(2);
 const square3 = new Square(3);
 const square4 = new Square(4);
+
 // Display
 console.log(square2.describe());
 console.log(square3.describe());
