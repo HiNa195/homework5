@@ -21,8 +21,7 @@ class Square {
         return dia;
     }
     describe () {
-        let x = `Square with side ${this.side} has perimeter of ${this.perimeter()}, area of ${this.area()}, and diagonal of ${this.diagonal()}`;
-        return x;
+        return `Square with side ${this.side} has perimeter of ${this.perimeter()}, area of ${this.area()}, and diagonal of ${this.diagonal()}`;
     }
 }
 
