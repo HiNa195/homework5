@@ -26,7 +26,11 @@ class Square {
     }
 }
 
-// Call the class
-const square = new Square(2);
+// Create objects
+const square2 = new Square(2);
+const square3 = new Square(3);
+const square4 = new Square(4);
 // Display
-console.log(square.describe());
+console.log(square2.describe());
+console.log(square3.describe());
+console.log(square4.describe());
